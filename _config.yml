@@ -12,7 +12,7 @@ baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
 
 # SNS settings
 RSS: false
-weibo_username:     常喑
+#weibo_username:     常喑
 zhihu_username:     wu-xx-3-9
 github_username:    Zchengwu
 #twitter_username:  huxpro
@@ -68,8 +68,8 @@ ga_domain: huangxuan.me
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "写写代码，做做设计，看看产品。世界那么大，多玩玩看看。"
-sidebar-avatar: /img/avatar-hux.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "Begin again. <br>积极发展各种副业"
+sidebar-avatar: /img/avatar-ricky.png      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
