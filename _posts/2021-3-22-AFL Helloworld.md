@@ -18,7 +18,7 @@ int main(int argc, char *argv[])
 
 创建`fuzz_in`，`fuzz-out`文件夹
 
-<img src="https://github.com/Zchengwu/zchengwu.github.io/blob/master/img/2021-3-22-AFL_Helloworld/image-1.png" style="zoom:50%;" />
+<img src="https://wwzzcccccc.me/img/post/AFL_Helloworld/image-1.png" style="zoom:50%;" />
 
 开始fuzz
 
@@ -28,13 +28,13 @@ afl-fuzz -i ./fuzz_in -o ./fuzz_out ./test
 
 运行界面
 
-<img src="https://github.com/Zchengwu/zchengwu.github.io/blob/master/img/2021-3-22-AFL_Helloworld/image-1.png" style="zoom:50%;" />
+<img src="https://wwzzcccccc.me/img/post/AFL_Helloworld/image-2.png" style="zoom:50%;" />
 
 crash分析
 
 - 分析运行结果中的连个uniq crashes
 
-  <img src="https://github.com/Zchengwu/zchengwu.github.io/blob/master/img/2021-3-22-AFL_Helloworld/image-1.png" style="zoom:50%;" />
+  <img src="https://wwzzcccccc.me/img/post/AFL_Helloworld/image-3.png" style="zoom:50%;" />
 
 ### tips
 
@@ -50,13 +50,13 @@ crash分析
 
 ​	切换到root，输入`echo core > /proc/sys/kernel/core_pattern`
 
-<img src="https://github.com/Zchengwu/zchengwu.github.io/blob/master/img/2021-3-22-AFL_Helloworld/image-1.png" style="zoom:50%;" />
+<img src="https://wwzzcccccc.me/img/post/AFL_Helloworld/image-4.png" style="zoom:50%;" />
 
 #### 2. no input case
 
 ​	在`fuzz_in`文件夹放一个输入，aaa。`echo aaa > ./fuzz_in/aaa`
 
-<img src="https://github.com/Zchengwu/zchengwu.github.io/blob/master/img/2021-3-22-AFL_Helloworld/image-1.png" style="zoom:50%;" />
+<img src="https://wwzzcccccc.me/img/post/AFL_Helloworld/image-5.png" style="zoom:50%;" />
 
 ---
 
