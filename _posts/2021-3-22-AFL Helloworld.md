@@ -1,6 +1,15 @@
 # AFL 简单测试 && 问题记录
 
-## 1. fuzz简单程序
+## 1. AFL 安装
+
+```
+wget https://lcamtuf.coredump.cx/afl/releases/afl-latest.tgz
+tar -xvf ./afl-latest.tgz
+cd afl-2.52b
+make && sudo make install
+```
+
+## 2. fuzz简单程序
 
 ```c
 // test1.c
