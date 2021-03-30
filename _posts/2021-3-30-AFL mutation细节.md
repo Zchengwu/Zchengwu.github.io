@@ -6,7 +6,8 @@ date:       2021-3-30
 author:     "Ricky Wu"
 header-img: "img/post-bg.jpg"
 tags:
-    - AFL, Fuzzing
+    - AFL
+    - Fuzzing
 ---
 
 > 总体上AFL维护一个文件队列，每次从其中取出一个“最感兴趣的”，对它进行大量变异(6类)，然后检测target进程运行结果，是否崩溃、发现新路径等等。

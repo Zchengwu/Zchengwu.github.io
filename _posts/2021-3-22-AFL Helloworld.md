@@ -1,12 +1,13 @@
 ---
 layout:     post
-title:      "# AFL 简单测试 && 问题记录"
+title:      "AFL 简单测试 && 问题记录"
 subtitle:   ""
 date:       2021-3-22
 author:     "Ricky Wu"
 header-img: "img/post-bg.jpg"
 tags:
-    - AFL, Fuzzing
+    - AFL
+    - Fuzzing
 ---
 
 ## 1. AFL 安装
