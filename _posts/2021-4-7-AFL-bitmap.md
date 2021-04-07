@@ -61,7 +61,7 @@ tags:
 
 ## fork server 更新 trace_bits
 
-见[AFL 插桩代码运行机制](AFL 插桩代码运行机制(完).md) 。
+见[AFL 插桩代码运行机制](https://wwzzcccccc.me/2021/04/07/AFL-instrumentation/)。
 
 
 
